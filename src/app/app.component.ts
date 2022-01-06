@@ -1,10 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'pay',
-  template: `<h1>PayPal</h1>`,
-  styles: [`h1 { font-family: Lato; }`],
+  selector: 'home',
+  template: `<h1> {{Homepage}} </h1>`,
+  //styles: [`h1 { font-family: Lato; }`],
 })
-export class AppComponent {
+export class HomepageComponent {
   @Input() name: string;
 }
